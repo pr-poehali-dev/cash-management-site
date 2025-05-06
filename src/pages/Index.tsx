@@ -2,8 +2,9 @@ import Header from "@/components/money-info/Header";
 import Hero from "@/components/money-info/Hero";
 import RoleOfCash from "@/components/money-info/RoleOfCash";
 import MoneyTypes from "@/components/money-info/MoneyTypes";
-import MoneyStorage from "@/components/money-info/MoneyStorage";
+import MoneyHistory from "@/components/money-info/MoneyHistory";
 import MoneyAdvancements from "@/components/money-info/MoneyAdvancements";
+import MoneyStorage from "@/components/money-info/MoneyStorage";
 import StatisticsSection from "@/components/money-info/StatisticsSection";
 import FAQ from "@/components/money-info/FAQ";
 import CallToAction from "@/components/money-info/CallToAction";
@@ -16,6 +17,7 @@ const Index = () => {
       <Hero />
       <RoleOfCash />
       <MoneyTypes />
+      <MoneyHistory />
       <MoneyAdvancements />
       <MoneyStorage />
       <StatisticsSection />
